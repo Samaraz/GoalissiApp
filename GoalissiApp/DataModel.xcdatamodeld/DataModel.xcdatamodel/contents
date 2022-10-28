@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G527" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Player" representedClassName=".Player" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+    </entity>
+    <entity name="PlayerAndScore" representedClassName=".PlayerAndScore" syncable="YES" codeGenerationType="class">
+        <attribute name="playerName" attributeType="String"/>
+        <attribute name="playerScore" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Player" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="PlayerAndScore" positionX="-54" positionY="0" width="128" height="59"/>
+    </elements>
+</model>

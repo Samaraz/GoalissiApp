@@ -1,0 +1,30 @@
+PODS:
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
+    - SwiftAlgorithms (~> 1.0)
+  - CLTypingLabel (0.4.0)
+  - SwiftAlgorithms (1.0.0)
+  - SwipeCellKit (2.7.1)
+
+DEPENDENCIES:
+  - Charts
+  - CLTypingLabel (~> 0.4.0)
+  - SwipeCellKit
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - CLTypingLabel
+    - SwiftAlgorithms
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  Charts: d959d6723c8eedfdd0735dfc28cb0a71762ac4d9
+  CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+
+PODFILE CHECKSUM: 6f20ebf60a60fee5634df598065b3b1553ae5a37
+
+COCOAPODS: 1.11.3

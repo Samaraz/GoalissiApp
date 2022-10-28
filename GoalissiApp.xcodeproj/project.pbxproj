@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0431A2CF289B139200E61064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431A2CE289B139200E61064 /* AppDelegate.swift */; };
+		0431A2D1289B139200E61064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431A2D0289B139200E61064 /* SceneDelegate.swift */; };
+		0431A2D3289B139200E61064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431A2D2289B139200E61064 /* ViewController.swift */; };
+		0431A2D6289B139200E61064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431A2D4289B139200E61064 /* Main.storyboard */; };
+		0431A2D8289B139400E61064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0431A2D7289B139400E61064 /* Assets.xcassets */; };
+		0431A2DB289B139400E61064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431A2D9289B139400E61064 /* LaunchScreen.storyboard */; };
+		045D8E8528A462AB00D333C4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D8E8428A462AB00D333C4 /* WelcomeViewController.swift */; };
+		045D8E8728A48E0800D333C4 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D8E8628A48E0800D333C4 /* UsersTableViewController.swift */; };
+		045D8E8928A49BE600D333C4 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D8E8828A49BE600D333C4 /* DifficultyViewController.swift */; };
+		045D8EC428A4FBC900D333C4 /* Emerson Royal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E8B28A4FBC900D333C4 /* Emerson Royal.jpeg */; };
+		045D8EC528A4FBC900D333C4 /* Victor Lindelof.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E8C28A4FBC900D333C4 /* Victor Lindelof.jpeg */; };
+		045D8EC628A4FBC900D333C4 /* Diogo Jota.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E8D28A4FBC900D333C4 /* Diogo Jota.jpeg */; };
+		045D8EC728A4FBC900D333C4 /* Ansu Fati.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E8E28A4FBC900D333C4 /* Ansu Fati.jpeg */; };
+		045D8EC828A4FBC900D333C4 /* Ben White.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E8F28A4FBC900D333C4 /* Ben White.jpeg */; };
+		045D8EC928A4FBC900D333C4 /* Edmond Tapsoba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9028A4FBC900D333C4 /* Edmond Tapsoba.jpeg */; };
+		045D8ECA28A4FBC900D333C4 /* Scott McTominay.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9128A4FBC900D333C4 /* Scott McTominay.jpeg */; };
+		045D8ECB28A4FBC900D333C4 /* Victor Osimhen.webp in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9228A4FBC900D333C4 /* Victor Osimhen.webp */; };
+		045D8ECC28A4FBC900D333C4 /* Alessandro Bastoni.webp in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9328A4FBC900D333C4 /* Alessandro Bastoni.webp */; };
+		045D8ECD28A4FBC900D333C4 /* Tyrone Mings.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9428A4FBC900D333C4 /* Tyrone Mings.jpeg */; };
+		045D8ECE28A4FBC900D333C4 /* Mathijs de Ligt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9528A4FBC900D333C4 /* Mathijs de Ligt.jpeg */; };
+		045D8ECF28A4FBC900D333C4 /* Phil Foden.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9628A4FBC900D333C4 /* Phil Foden.jpeg */; };
+		045D8ED028A4FBC900D333C4 /* Ruben Dias.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9728A4FBC900D333C4 /* Ruben Dias.jpeg */; };
+		045D8ED128A4FBC900D333C4 /* Aaron Wan-Bissaka.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9828A4FBC900D333C4 /* Aaron Wan-Bissaka.jpeg */; };
+		045D8ED228A4FBC900D333C4 /* Smith Rowe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9928A4FBC900D333C4 /* Smith Rowe.jpeg */; };
+		045D8ED328A4FBC900D333C4 /* Andre Silva.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9A28A4FBC900D333C4 /* Andre Silva.jpeg */; };
+		045D8ED428A4FBC900D333C4 /* Mason Mount.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9B28A4FBC900D333C4 /* Mason Mount.jpeg */; };
+		045D8ED528A4FBC900D333C4 /* Yves Bissouma.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9C28A4FBC900D333C4 /* Yves Bissouma.jpeg */; };
+		045D8ED628A4FBC900D333C4 /* Oscar Mingueza.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9D28A4FBC900D333C4 /* Oscar Mingueza.jpeg */; };
+		045D8ED728A4FBC900D333C4 /* Wesley Fofana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9E28A4FBC900D333C4 /* Wesley Fofana.jpeg */; };
+		045D8ED828A4FBC900D333C4 /* Vinicius Junior.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8E9F28A4FBC900D333C4 /* Vinicius Junior.jpeg */; };
+		045D8ED928A4FBC900D333C4 /* Danilo Pereira.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA028A4FBC900D333C4 /* Danilo Pereira.jpeg */; };
+		045D8EDA28A4FBC900D333C4 /* Ronald Arajuo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA128A4FBC900D333C4 /* Ronald Arajuo.jpeg */; };
+		045D8EDB28A4FBC900D333C4 /* Frenkie de Jong.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA228A4FBC900D333C4 /* Frenkie de Jong.jpeg */; };
+		045D8EDC28A4FBC900D333C4 /* Jules Kounde.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA328A4FBC900D333C4 /* Jules Kounde.jpeg */; };
+		045D8EDD28A4FBC900D333C4 /* Eric Garcia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA428A4FBC900D333C4 /* Eric Garcia.jpeg */; };
+		045D8EDE28A4FBC900D333C4 /* Fikayo Tomori.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA528A4FBC900D333C4 /* Fikayo Tomori.jpeg */; };
+		045D8EDF28A4FBC900D333C4 /* Martin Odegaard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA628A4FBC900D333C4 /* Martin Odegaard.jpeg */; };
+		045D8EE028A4FBC900D333C4 /* Paulo Otavio.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA728A4FBC900D333C4 /* Paulo Otavio.jpeg */; };
+		045D8EE128A4FBC900D333C4 /* Curtis Jones.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA828A4FBC900D333C4 /* Curtis Jones.jpeg */; };
+		045D8EE228A4FBC900D333C4 /* Joe Willock.webp in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EA928A4FBC900D333C4 /* Joe Willock.webp */; };
+		045D8EE328A4FBC900D333C4 /* Youri Tielemans.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EAA28A4FBC900D333C4 /* Youri Tielemans.jpeg */; };
+		045D8EE428A4FBC900D333C4 /* Christopher Nkunku.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EAB28A4FBC900D333C4 /* Christopher Nkunku.jpeg */; };
+		045D8EE528A4FBC900D333C4 /* Tosin Adarabioyo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EAC28A4FBC900D333C4 /* Tosin Adarabioyo.jpeg */; };
+		045D8EE628A4FBC900D333C4 /* Patrick Bamford.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EAD28A4FBC900D333C4 /* Patrick Bamford.jpeg */; };
+		045D8EE728A4FBC900D333C4 /* Erling Haaland.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EAE28A4FBC900D333C4 /* Erling Haaland.jpeg */; };
+		045D8EE828A4FBC900D333C4 /* Alphonso Davies.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EAF28A4FBC900D333C4 /* Alphonso Davies.jpeg */; };
+		045D8EE928A4FBC900D333C4 /* Alessandro Bastoni.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB028A4FBC900D333C4 /* Alessandro Bastoni.jpeg */; };
+		045D8EEA28A4FBC900D333C4 /* Victor Osimhen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB128A4FBC900D333C4 /* Victor Osimhen.jpeg */; };
+		045D8EEB28A4FBC900D333C4 /* Moussa Diaby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB228A4FBC900D333C4 /* Moussa Diaby.jpeg */; };
+		045D8EEC28A4FBC900D333C4 /* Ferran Torres.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB328A4FBC900D333C4 /* Ferran Torres.jpeg */; };
+		045D8EED28A4FBC900D333C4 /* Declan Rice.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB428A4FBC900D333C4 /* Declan Rice.jpeg */; };
+		045D8EEE28A4FBC900D333C4 /* Ederson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB528A4FBC900D333C4 /* Ederson.jpeg */; };
+		045D8EEF28A4FBC900D333C4 /* Moses Simon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB628A4FBC900D333C4 /* Moses Simon.jpeg */; };
+		045D8EF028A4FBC900D333C4 /* Reece James.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB728A4FBC900D333C4 /* Reece James.jpeg */; };
+		045D8EF128A4FBC900D333C4 /* Simy Nwankwo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB828A4FBC900D333C4 /* Simy Nwankwo.jpeg */; };
+		045D8EF228A4FBC900D333C4 /* Raphinha.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EB928A4FBC900D333C4 /* Raphinha.jpeg */; };
+		045D8EF328A4FBC900D333C4 /* Bukayo Saka.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EBA28A4FBC900D333C4 /* Bukayo Saka.jpeg */; };
+		045D8EF428A4FBC900D333C4 /* Eder Militao.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EBB28A4FBC900D333C4 /* Eder Militao.jpeg */; };
+		045D8EF528A4FBC900D333C4 /* Joe Willock.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EBC28A4FBC900D333C4 /* Joe Willock.jpeg */; };
+		045D8EF628A4FBC900D333C4 /* Pedri.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EBD28A4FBC900D333C4 /* Pedri.jpeg */; };
+		045D8EF728A4FBC900D333C4 /* Trent Alexander-Arnold.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EBE28A4FBC900D333C4 /* Trent Alexander-Arnold.jpeg */; };
+		045D8EF828A4FBC900D333C4 /* Ollie Watkins.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EBF28A4FBC900D333C4 /* Ollie Watkins.jpeg */; };
+		045D8EF928A4FBC900D333C4 /* Lisandro Martinez.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EC028A4FBC900D333C4 /* Lisandro Martinez.jpeg */; };
+		045D8EFA28A4FBC900D333C4 /* Jordan Sancho.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EC128A4FBC900D333C4 /* Jordan Sancho.jpeg */; };
+		045D8EFB28A4FBC900D333C4 /* Nelson Semedo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EC228A4FBC900D333C4 /* Nelson Semedo.jpeg */; };
+		045D8EFC28A4FBC900D333C4 /* Arthur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 045D8EC328A4FBC900D333C4 /* Arthur.jpeg */; };
+		045D8F6728A5FE3700D333C4 /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D8F6628A5FE3700D333C4 /* CircularProgressBarView.swift */; };
+		045D8F6928A6DB4100D333C4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D8F6828A6DB4000D333C4 /* ResultViewController.swift */; };
+		045D8F6B28A6DE5700D333C4 /* LeadersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D8F6A28A6DE5700D333C4 /* LeadersViewController.swift */; };
+		045D8F7028A8189600D333C4 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 045D8F6E28A8189500D333C4 /* DataModel.xcdatamodeld */; };
+		0467155B28AB07DC00794402 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467155A28AB07DC00794402 /* LevelViewController.swift */; };
+		0467155D28AB0AA200794402 /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467155C28AB0AA200794402 /* LevelCollectionViewCell.swift */; };
+		0467155F28AB0C1000794402 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467155E28AB0C1000794402 /* Levels.swift */; };
+		04F43E26289DA142007402E0 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F43E25289DA142007402E0 /* BrowserViewController.swift */; };
+		CC40DAFC188AC108C70D15AB /* Pods_GoalissiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C842CCF012CFE8FD027477E4 /* Pods_GoalissiApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0431A2CB289B139200E61064 /* GoalissiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalissiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0431A2CE289B139200E61064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0431A2D0289B139200E61064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0431A2D2289B139200E61064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0431A2D5289B139200E61064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0431A2D7289B139400E61064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0431A2DA289B139400E61064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0431A2DC289B139400E61064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045D8E8428A462AB00D333C4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		045D8E8628A48E0800D333C4 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		045D8E8828A49BE600D333C4 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
+		045D8E8B28A4FBC900D333C4 /* Emerson Royal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emerson Royal.jpeg"; sourceTree = "<group>"; };
+		045D8E8C28A4FBC900D333C4 /* Victor Lindelof.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Victor Lindelof.jpeg"; sourceTree = "<group>"; };
+		045D8E8D28A4FBC900D333C4 /* Diogo Jota.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Diogo Jota.jpeg"; sourceTree = "<group>"; };
+		045D8E8E28A4FBC900D333C4 /* Ansu Fati.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ansu Fati.jpeg"; sourceTree = "<group>"; };
+		045D8E8F28A4FBC900D333C4 /* Ben White.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ben White.jpeg"; sourceTree = "<group>"; };
+		045D8E9028A4FBC900D333C4 /* Edmond Tapsoba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Edmond Tapsoba.jpeg"; sourceTree = "<group>"; };
+		045D8E9128A4FBC900D333C4 /* Scott McTominay.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Scott McTominay.jpeg"; sourceTree = "<group>"; };
+		045D8E9228A4FBC900D333C4 /* Victor Osimhen.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Victor Osimhen.webp"; sourceTree = "<group>"; };
+		045D8E9328A4FBC900D333C4 /* Alessandro Bastoni.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alessandro Bastoni.webp"; sourceTree = "<group>"; };
+		045D8E9428A4FBC900D333C4 /* Tyrone Mings.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tyrone Mings.jpeg"; sourceTree = "<group>"; };
+		045D8E9528A4FBC900D333C4 /* Mathijs de Ligt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mathijs de Ligt.jpeg"; sourceTree = "<group>"; };
+		045D8E9628A4FBC900D333C4 /* Phil Foden.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phil Foden.jpeg"; sourceTree = "<group>"; };
+		045D8E9728A4FBC900D333C4 /* Ruben Dias.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ruben Dias.jpeg"; sourceTree = "<group>"; };
+		045D8E9828A4FBC900D333C4 /* Aaron Wan-Bissaka.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aaron Wan-Bissaka.jpeg"; sourceTree = "<group>"; };
+		045D8E9928A4FBC900D333C4 /* Smith Rowe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Smith Rowe.jpeg"; sourceTree = "<group>"; };
+		045D8E9A28A4FBC900D333C4 /* Andre Silva.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andre Silva.jpeg"; sourceTree = "<group>"; };
+		045D8E9B28A4FBC900D333C4 /* Mason Mount.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mason Mount.jpeg"; sourceTree = "<group>"; };
+		045D8E9C28A4FBC900D333C4 /* Yves Bissouma.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yves Bissouma.jpeg"; sourceTree = "<group>"; };
+		045D8E9D28A4FBC900D333C4 /* Oscar Mingueza.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oscar Mingueza.jpeg"; sourceTree = "<group>"; };
+		045D8E9E28A4FBC900D333C4 /* Wesley Fofana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wesley Fofana.jpeg"; sourceTree = "<group>"; };
+		045D8E9F28A4FBC900D333C4 /* Vinicius Junior.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vinicius Junior.jpeg"; sourceTree = "<group>"; };
+		045D8EA028A4FBC900D333C4 /* Danilo Pereira.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Danilo Pereira.jpeg"; sourceTree = "<group>"; };
+		045D8EA128A4FBC900D333C4 /* Ronald Arajuo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ronald Arajuo.jpeg"; sourceTree = "<group>"; };
+		045D8EA228A4FBC900D333C4 /* Frenkie de Jong.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frenkie de Jong.jpeg"; sourceTree = "<group>"; };
+		045D8EA328A4FBC900D333C4 /* Jules Kounde.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jules Kounde.jpeg"; sourceTree = "<group>"; };
+		045D8EA428A4FBC900D333C4 /* Eric Garcia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eric Garcia.jpeg"; sourceTree = "<group>"; };
+		045D8EA528A4FBC900D333C4 /* Fikayo Tomori.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fikayo Tomori.jpeg"; sourceTree = "<group>"; };
+		045D8EA628A4FBC900D333C4 /* Martin Odegaard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Martin Odegaard.jpeg"; sourceTree = "<group>"; };
+		045D8EA728A4FBC900D333C4 /* Paulo Otavio.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Paulo Otavio.jpeg"; sourceTree = "<group>"; };
+		045D8EA828A4FBC900D333C4 /* Curtis Jones.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Curtis Jones.jpeg"; sourceTree = "<group>"; };
+		045D8EA928A4FBC900D333C4 /* Joe Willock.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Joe Willock.webp"; sourceTree = "<group>"; };
+		045D8EAA28A4FBC900D333C4 /* Youri Tielemans.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Youri Tielemans.jpeg"; sourceTree = "<group>"; };
+		045D8EAB28A4FBC900D333C4 /* Christopher Nkunku.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Christopher Nkunku.jpeg"; sourceTree = "<group>"; };
+		045D8EAC28A4FBC900D333C4 /* Tosin Adarabioyo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tosin Adarabioyo.jpeg"; sourceTree = "<group>"; };
+		045D8EAD28A4FBC900D333C4 /* Patrick Bamford.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Patrick Bamford.jpeg"; sourceTree = "<group>"; };
+		045D8EAE28A4FBC900D333C4 /* Erling Haaland.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Erling Haaland.jpeg"; sourceTree = "<group>"; };
+		045D8EAF28A4FBC900D333C4 /* Alphonso Davies.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alphonso Davies.jpeg"; sourceTree = "<group>"; };
+		045D8EB028A4FBC900D333C4 /* Alessandro Bastoni.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alessandro Bastoni.jpeg"; sourceTree = "<group>"; };
+		045D8EB128A4FBC900D333C4 /* Victor Osimhen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Victor Osimhen.jpeg"; sourceTree = "<group>"; };
+		045D8EB228A4FBC900D333C4 /* Moussa Diaby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moussa Diaby.jpeg"; sourceTree = "<group>"; };
+		045D8EB328A4FBC900D333C4 /* Ferran Torres.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferran Torres.jpeg"; sourceTree = "<group>"; };
+		045D8EB428A4FBC900D333C4 /* Declan Rice.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Declan Rice.jpeg"; sourceTree = "<group>"; };
+		045D8EB528A4FBC900D333C4 /* Ederson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ederson.jpeg; sourceTree = "<group>"; };
+		045D8EB628A4FBC900D333C4 /* Moses Simon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moses Simon.jpeg"; sourceTree = "<group>"; };
+		045D8EB728A4FBC900D333C4 /* Reece James.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Reece James.jpeg"; sourceTree = "<group>"; };
+		045D8EB828A4FBC900D333C4 /* Simy Nwankwo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Simy Nwankwo.jpeg"; sourceTree = "<group>"; };
+		045D8EB928A4FBC900D333C4 /* Raphinha.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Raphinha.jpeg; sourceTree = "<group>"; };
+		045D8EBA28A4FBC900D333C4 /* Bukayo Saka.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bukayo Saka.jpeg"; sourceTree = "<group>"; };
+		045D8EBB28A4FBC900D333C4 /* Eder Militao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eder Militao.jpeg"; sourceTree = "<group>"; };
+		045D8EBC28A4FBC900D333C4 /* Joe Willock.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Joe Willock.jpeg"; sourceTree = "<group>"; };
+		045D8EBD28A4FBC900D333C4 /* Pedri.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pedri.jpeg; sourceTree = "<group>"; };
+		045D8EBE28A4FBC900D333C4 /* Trent Alexander-Arnold.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Trent Alexander-Arnold.jpeg"; sourceTree = "<group>"; };
+		045D8EBF28A4FBC900D333C4 /* Ollie Watkins.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ollie Watkins.jpeg"; sourceTree = "<group>"; };
+		045D8EC028A4FBC900D333C4 /* Lisandro Martinez.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lisandro Martinez.jpeg"; sourceTree = "<group>"; };
+		045D8EC128A4FBC900D333C4 /* Jordan Sancho.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan Sancho.jpeg"; sourceTree = "<group>"; };
+		045D8EC228A4FBC900D333C4 /* Nelson Semedo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nelson Semedo.jpeg"; sourceTree = "<group>"; };
+		045D8EC328A4FBC900D333C4 /* Arthur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arthur.jpeg; sourceTree = "<group>"; };
+		045D8F6628A5FE3700D333C4 /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
+		045D8F6828A6DB4000D333C4 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		045D8F6A28A6DE5700D333C4 /* LeadersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadersViewController.swift; sourceTree = "<group>"; };
+		045D8F6F28A8189600D333C4 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		0467155A28AB07DC00794402 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		0467155C28AB0AA200794402 /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		0467155E28AB0C1000794402 /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		04F43E25289DA142007402E0 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		C20C814D8A292B933E8C5EF8 /* Pods-GoalissiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoalissiApp.release.xcconfig"; path = "Target Support Files/Pods-GoalissiApp/Pods-GoalissiApp.release.xcconfig"; sourceTree = "<group>"; };
+		C842CCF012CFE8FD027477E4 /* Pods_GoalissiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoalissiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD723A661288352A2B50DE16 /* Pods-GoalissiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoalissiApp.debug.xcconfig"; path = "Target Support Files/Pods-GoalissiApp/Pods-GoalissiApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0431A2C8289B139200E61064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC40DAFC188AC108C70D15AB /* Pods_GoalissiApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0431A2C2289B139100E61064 = {
+			isa = PBXGroup;
+			children = (
+				0431A2CD289B139200E61064 /* GoalissiApp */,
+				0431A2CC289B139200E61064 /* Products */,
+				4F90FE9F034D1232CBD71971 /* Pods */,
+				B4E9E4ED1E13CB30731FAFEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0431A2CC289B139200E61064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0431A2CB289B139200E61064 /* GoalissiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0431A2CD289B139200E61064 /* GoalissiApp */ = {
+			isa = PBXGroup;
+			children = (
+				0431A2CE289B139200E61064 /* AppDelegate.swift */,
+				0431A2D0289B139200E61064 /* SceneDelegate.swift */,
+				045D8E8428A462AB00D333C4 /* WelcomeViewController.swift */,
+				045D8E8628A48E0800D333C4 /* UsersTableViewController.swift */,
+				0467155A28AB07DC00794402 /* LevelViewController.swift */,
+				0431A2D2289B139200E61064 /* ViewController.swift */,
+				045D8F6628A5FE3700D333C4 /* CircularProgressBarView.swift */,
+				04F43E25289DA142007402E0 /* BrowserViewController.swift */,
+				045D8F6828A6DB4000D333C4 /* ResultViewController.swift */,
+				045D8F6A28A6DE5700D333C4 /* LeadersViewController.swift */,
+				045D8E8828A49BE600D333C4 /* DifficultyViewController.swift */,
+				0431A2D4289B139200E61064 /* Main.storyboard */,
+				0467155C28AB0AA200794402 /* LevelCollectionViewCell.swift */,
+				0467155E28AB0C1000794402 /* Levels.swift */,
+				045D8F6E28A8189500D333C4 /* DataModel.xcdatamodeld */,
+				0431A2D7289B139400E61064 /* Assets.xcassets */,
+				0431A2D9289B139400E61064 /* LaunchScreen.storyboard */,
+				0431A2DC289B139400E61064 /* Info.plist */,
+				045D8E8A28A4FBC900D333C4 /* untitled folder */,
+			);
+			path = GoalissiApp;
+			sourceTree = "<group>";
+		};
+		045D8E8A28A4FBC900D333C4 /* untitled folder */ = {
+			isa = PBXGroup;
+			children = (
+				045D8E8C28A4FBC900D333C4 /* Victor Lindelof.jpeg */,
+				045D8E8D28A4FBC900D333C4 /* Diogo Jota.jpeg */,
+				045D8E8E28A4FBC900D333C4 /* Ansu Fati.jpeg */,
+				045D8E8F28A4FBC900D333C4 /* Ben White.jpeg */,
+				045D8E8B28A4FBC900D333C4 /* Emerson Royal.jpeg */,
+				045D8E9028A4FBC900D333C4 /* Edmond Tapsoba.jpeg */,
+				045D8E9128A4FBC900D333C4 /* Scott McTominay.jpeg */,
+				045D8E9228A4FBC900D333C4 /* Victor Osimhen.webp */,
+				045D8E9328A4FBC900D333C4 /* Alessandro Bastoni.webp */,
+				045D8E9428A4FBC900D333C4 /* Tyrone Mings.jpeg */,
+				045D8E9528A4FBC900D333C4 /* Mathijs de Ligt.jpeg */,
+				045D8E9628A4FBC900D333C4 /* Phil Foden.jpeg */,
+				045D8E9728A4FBC900D333C4 /* Ruben Dias.jpeg */,
+				045D8E9828A4FBC900D333C4 /* Aaron Wan-Bissaka.jpeg */,
+				045D8E9928A4FBC900D333C4 /* Smith Rowe.jpeg */,
+				045D8E9A28A4FBC900D333C4 /* Andre Silva.jpeg */,
+				045D8E9B28A4FBC900D333C4 /* Mason Mount.jpeg */,
+				045D8E9C28A4FBC900D333C4 /* Yves Bissouma.jpeg */,
+				045D8E9D28A4FBC900D333C4 /* Oscar Mingueza.jpeg */,
+				045D8E9E28A4FBC900D333C4 /* Wesley Fofana.jpeg */,
+				045D8E9F28A4FBC900D333C4 /* Vinicius Junior.jpeg */,
+				045D8EA028A4FBC900D333C4 /* Danilo Pereira.jpeg */,
+				045D8EA128A4FBC900D333C4 /* Ronald Arajuo.jpeg */,
+				045D8EA228A4FBC900D333C4 /* Frenkie de Jong.jpeg */,
+				045D8EA328A4FBC900D333C4 /* Jules Kounde.jpeg */,
+				045D8EA428A4FBC900D333C4 /* Eric Garcia.jpeg */,
+				045D8EA528A4FBC900D333C4 /* Fikayo Tomori.jpeg */,
+				045D8EA628A4FBC900D333C4 /* Martin Odegaard.jpeg */,
+				045D8EA728A4FBC900D333C4 /* Paulo Otavio.jpeg */,
+				045D8EA828A4FBC900D333C4 /* Curtis Jones.jpeg */,
+				045D8EA928A4FBC900D333C4 /* Joe Willock.webp */,
+				045D8EAA28A4FBC900D333C4 /* Youri Tielemans.jpeg */,
+				045D8EAB28A4FBC900D333C4 /* Christopher Nkunku.jpeg */,
+				045D8EAC28A4FBC900D333C4 /* Tosin Adarabioyo.jpeg */,
+				045D8EAD28A4FBC900D333C4 /* Patrick Bamford.jpeg */,
+				045D8EAE28A4FBC900D333C4 /* Erling Haaland.jpeg */,
+				045D8EAF28A4FBC900D333C4 /* Alphonso Davies.jpeg */,
+				045D8EB028A4FBC900D333C4 /* Alessandro Bastoni.jpeg */,
+				045D8EB128A4FBC900D333C4 /* Victor Osimhen.jpeg */,
+				045D8EB228A4FBC900D333C4 /* Moussa Diaby.jpeg */,
+				045D8EB328A4FBC900D333C4 /* Ferran Torres.jpeg */,
+				045D8EB428A4FBC900D333C4 /* Declan Rice.jpeg */,
+				045D8EB528A4FBC900D333C4 /* Ederson.jpeg */,
+				045D8EB628A4FBC900D333C4 /* Moses Simon.jpeg */,
+				045D8EB728A4FBC900D333C4 /* Reece James.jpeg */,
+				045D8EB828A4FBC900D333C4 /* Simy Nwankwo.jpeg */,
+				045D8EB928A4FBC900D333C4 /* Raphinha.jpeg */,
+				045D8EBA28A4FBC900D333C4 /* Bukayo Saka.jpeg */,
+				045D8EBB28A4FBC900D333C4 /* Eder Militao.jpeg */,
+				045D8EBC28A4FBC900D333C4 /* Joe Willock.jpeg */,
+				045D8EBD28A4FBC900D333C4 /* Pedri.jpeg */,
+				045D8EBE28A4FBC900D333C4 /* Trent Alexander-Arnold.jpeg */,
+				045D8EBF28A4FBC900D333C4 /* Ollie Watkins.jpeg */,
+				045D8EC028A4FBC900D333C4 /* Lisandro Martinez.jpeg */,
+				045D8EC128A4FBC900D333C4 /* Jordan Sancho.jpeg */,
+				045D8EC228A4FBC900D333C4 /* Nelson Semedo.jpeg */,
+				045D8EC328A4FBC900D333C4 /* Arthur.jpeg */,
+			);
+			path = "untitled folder";
+			sourceTree = "<group>";
+		};
+		4F90FE9F034D1232CBD71971 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD723A661288352A2B50DE16 /* Pods-GoalissiApp.debug.xcconfig */,
+				C20C814D8A292B933E8C5EF8 /* Pods-GoalissiApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4E9E4ED1E13CB30731FAFEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C842CCF012CFE8FD027477E4 /* Pods_GoalissiApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0431A2CA289B139200E61064 /* GoalissiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0431A2DF289B139400E61064 /* Build configuration list for PBXNativeTarget "GoalissiApp" */;
+			buildPhases = (
+				044033AAECE256C2136A32B7 /* [CP] Check Pods Manifest.lock */,
+				0431A2C7289B139200E61064 /* Sources */,
+				0431A2C8289B139200E61064 /* Frameworks */,
+				0431A2C9289B139200E61064 /* Resources */,
+				36FF6FE9D1C627EF7E9B6C72 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoalissiApp;
+			productName = GoalissiApp;
+			productReference = 0431A2CB289B139200E61064 /* GoalissiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0431A2C3289B139100E61064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0431A2CA289B139200E61064 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0431A2C6289B139100E61064 /* Build configuration list for PBXProject "GoalissiApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0431A2C2289B139100E61064;
+			productRefGroup = 0431A2CC289B139200E61064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0431A2CA289B139200E61064 /* GoalissiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0431A2C9289B139200E61064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D8EE828A4FBC900D333C4 /* Alphonso Davies.jpeg in Resources */,
+				045D8EEA28A4FBC900D333C4 /* Victor Osimhen.jpeg in Resources */,
+				045D8EF328A4FBC900D333C4 /* Bukayo Saka.jpeg in Resources */,
+				045D8ED028A4FBC900D333C4 /* Ruben Dias.jpeg in Resources */,
+				045D8EFA28A4FBC900D333C4 /* Jordan Sancho.jpeg in Resources */,
+				045D8EEF28A4FBC900D333C4 /* Moses Simon.jpeg in Resources */,
+				045D8EF528A4FBC900D333C4 /* Joe Willock.jpeg in Resources */,
+				045D8EF628A4FBC900D333C4 /* Pedri.jpeg in Resources */,
+				045D8EF928A4FBC900D333C4 /* Lisandro Martinez.jpeg in Resources */,
+				045D8ED228A4FBC900D333C4 /* Smith Rowe.jpeg in Resources */,
+				045D8EC828A4FBC900D333C4 /* Ben White.jpeg in Resources */,
+				045D8EE228A4FBC900D333C4 /* Joe Willock.webp in Resources */,
+				045D8ECF28A4FBC900D333C4 /* Phil Foden.jpeg in Resources */,
+				045D8EF028A4FBC900D333C4 /* Reece James.jpeg in Resources */,
+				045D8EE928A4FBC900D333C4 /* Alessandro Bastoni.jpeg in Resources */,
+				045D8ED928A4FBC900D333C4 /* Danilo Pereira.jpeg in Resources */,
+				045D8ECE28A4FBC900D333C4 /* Mathijs de Ligt.jpeg in Resources */,
+				045D8EEB28A4FBC900D333C4 /* Moussa Diaby.jpeg in Resources */,
+				045D8ED128A4FBC900D333C4 /* Aaron Wan-Bissaka.jpeg in Resources */,
+				0431A2DB289B139400E61064 /* LaunchScreen.storyboard in Resources */,
+				045D8ED628A4FBC900D333C4 /* Oscar Mingueza.jpeg in Resources */,
+				045D8EE428A4FBC900D333C4 /* Christopher Nkunku.jpeg in Resources */,
+				045D8EF828A4FBC900D333C4 /* Ollie Watkins.jpeg in Resources */,
+				045D8EDF28A4FBC900D333C4 /* Martin Odegaard.jpeg in Resources */,
+				045D8EDE28A4FBC900D333C4 /* Fikayo Tomori.jpeg in Resources */,
+				045D8ED728A4FBC900D333C4 /* Wesley Fofana.jpeg in Resources */,
+				045D8EE328A4FBC900D333C4 /* Youri Tielemans.jpeg in Resources */,
+				045D8EEC28A4FBC900D333C4 /* Ferran Torres.jpeg in Resources */,
+				045D8EFB28A4FBC900D333C4 /* Nelson Semedo.jpeg in Resources */,
+				045D8EE528A4FBC900D333C4 /* Tosin Adarabioyo.jpeg in Resources */,
+				045D8ECA28A4FBC900D333C4 /* Scott McTominay.jpeg in Resources */,
+				0431A2D8289B139400E61064 /* Assets.xcassets in Resources */,
+				045D8EDB28A4FBC900D333C4 /* Frenkie de Jong.jpeg in Resources */,
+				045D8EC928A4FBC900D333C4 /* Edmond Tapsoba.jpeg in Resources */,
+				045D8EC428A4FBC900D333C4 /* Emerson Royal.jpeg in Resources */,
+				045D8EE628A4FBC900D333C4 /* Patrick Bamford.jpeg in Resources */,
+				045D8ECD28A4FBC900D333C4 /* Tyrone Mings.jpeg in Resources */,
+				0431A2D6289B139200E61064 /* Main.storyboard in Resources */,
+				045D8EDA28A4FBC900D333C4 /* Ronald Arajuo.jpeg in Resources */,
+				045D8EDC28A4FBC900D333C4 /* Jules Kounde.jpeg in Resources */,
+				045D8EC728A4FBC900D333C4 /* Ansu Fati.jpeg in Resources */,
+				045D8EDD28A4FBC900D333C4 /* Eric Garcia.jpeg in Resources */,
+				045D8ED528A4FBC900D333C4 /* Yves Bissouma.jpeg in Resources */,
+				045D8EF128A4FBC900D333C4 /* Simy Nwankwo.jpeg in Resources */,
+				045D8EE728A4FBC900D333C4 /* Erling Haaland.jpeg in Resources */,
+				045D8EFC28A4FBC900D333C4 /* Arthur.jpeg in Resources */,
+				045D8EF228A4FBC900D333C4 /* Raphinha.jpeg in Resources */,
+				045D8EE028A4FBC900D333C4 /* Paulo Otavio.jpeg in Resources */,
+				045D8ED828A4FBC900D333C4 /* Vinicius Junior.jpeg in Resources */,
+				045D8EC528A4FBC900D333C4 /* Victor Lindelof.jpeg in Resources */,
+				045D8EEE28A4FBC900D333C4 /* Ederson.jpeg in Resources */,
+				045D8EF428A4FBC900D333C4 /* Eder Militao.jpeg in Resources */,
+				045D8ED328A4FBC900D333C4 /* Andre Silva.jpeg in Resources */,
+				045D8EF728A4FBC900D333C4 /* Trent Alexander-Arnold.jpeg in Resources */,
+				045D8EE128A4FBC900D333C4 /* Curtis Jones.jpeg in Resources */,
+				045D8ECB28A4FBC900D333C4 /* Victor Osimhen.webp in Resources */,
+				045D8ED428A4FBC900D333C4 /* Mason Mount.jpeg in Resources */,
+				045D8EC628A4FBC900D333C4 /* Diogo Jota.jpeg in Resources */,
+				045D8EED28A4FBC900D333C4 /* Declan Rice.jpeg in Resources */,
+				045D8ECC28A4FBC900D333C4 /* Alessandro Bastoni.webp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044033AAECE256C2136A32B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoalissiApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36FF6FE9D1C627EF7E9B6C72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoalissiApp/Pods-GoalissiApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoalissiApp/Pods-GoalissiApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoalissiApp/Pods-GoalissiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0431A2C7289B139200E61064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D8F7028A8189600D333C4 /* DataModel.xcdatamodeld in Sources */,
+				0431A2D3289B139200E61064 /* ViewController.swift in Sources */,
+				045D8F6B28A6DE5700D333C4 /* LeadersViewController.swift in Sources */,
+				0467155D28AB0AA200794402 /* LevelCollectionViewCell.swift in Sources */,
+				0467155B28AB07DC00794402 /* LevelViewController.swift in Sources */,
+				045D8E8528A462AB00D333C4 /* WelcomeViewController.swift in Sources */,
+				045D8F6728A5FE3700D333C4 /* CircularProgressBarView.swift in Sources */,
+				045D8E8728A48E0800D333C4 /* UsersTableViewController.swift in Sources */,
+				0467155F28AB0C1000794402 /* Levels.swift in Sources */,
+				045D8E8928A49BE600D333C4 /* DifficultyViewController.swift in Sources */,
+				04F43E26289DA142007402E0 /* BrowserViewController.swift in Sources */,
+				0431A2CF289B139200E61064 /* AppDelegate.swift in Sources */,
+				0431A2D1289B139200E61064 /* SceneDelegate.swift in Sources */,
+				045D8F6928A6DB4100D333C4 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0431A2D4289B139200E61064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0431A2D5289B139200E61064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0431A2D9289B139400E61064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0431A2DA289B139400E61064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0431A2DD289B139400E61064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0431A2DE289B139400E61064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0431A2E0289B139400E61064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD723A661288352A2B50DE16 /* Pods-GoalissiApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KAY2U4R9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoalissiApp/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to access your photo Library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.GoalissiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0431A2E1289B139400E61064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20C814D8A292B933E8C5EF8 /* Pods-GoalissiApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KAY2U4R9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoalissiApp/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to access your photo Library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.GoalissiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0431A2C6289B139100E61064 /* Build configuration list for PBXProject "GoalissiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0431A2DD289B139400E61064 /* Debug */,
+				0431A2DE289B139400E61064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0431A2DF289B139400E61064 /* Build configuration list for PBXNativeTarget "GoalissiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0431A2E0289B139400E61064 /* Debug */,
+				0431A2E1289B139400E61064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		045D8F6E28A8189500D333C4 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				045D8F6F28A8189600D333C4 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 045D8F6F28A8189600D333C4 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0431A2C3289B139100E61064 /* Project object */;
+}

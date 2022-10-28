@@ -1,0 +1,6 @@
+framework module Pods_GoalissiApp {
+  umbrella header "Pods-GoalissiApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
